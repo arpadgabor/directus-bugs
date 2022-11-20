@@ -41,7 +41,7 @@ collections:
       item_duplication_fields: null
       note: null
       singleton: false
-      sort: null
+      sort: 19
       sort_field: null
       translations: null
       unarchive_value: null
@@ -65,7 +65,7 @@ collections:
       item_duplication_fields: null
       note: null
       singleton: false
-      sort: 17
+      sort: 12
       sort_field: null
       translations: null
       unarchive_value: null
@@ -117,7 +117,7 @@ collections:
       item_duplication_fields: null
       note: null
       singleton: false
-      sort: 8
+      sort: 9
       sort_field: null
       translations:
         - language: ro-RO
@@ -145,7 +145,7 @@ collections:
       item_duplication_fields: null
       note: null
       singleton: false
-      sort: 14
+      sort: 16
       sort_field: null
       translations: null
       unarchive_value: null
@@ -169,13 +169,41 @@ collections:
       item_duplication_fields: null
       note: null
       singleton: false
-      sort: 15
+      sort: 17
       sort_field: null
       translations: null
       unarchive_value: null
     schema:
       comment: null
       name: audiences_services
+      schema: public
+  - collection: careers
+    meta:
+      accountability: all
+      archive_app_filter: false
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: careers
+      color: null
+      display_template: null
+      group: partners
+      hidden: false
+      icon: work_outline
+      item_duplication_fields: null
+      note: null
+      singleton: false
+      sort: 1
+      sort_field: null
+      translations:
+        - language: ro-RO
+          translation: Cariere
+          singular: Carieră
+          plural: Cariere
+      unarchive_value: null
+    schema:
+      comment: null
+      name: careers
       schema: public
   - collection: categories
     meta:
@@ -193,7 +221,7 @@ collections:
       item_duplication_fields: null
       note: null
       singleton: false
-      sort: 5
+      sort: 6
       sort_field: null
       translations:
         - language: ro-RO
@@ -221,7 +249,7 @@ collections:
       item_duplication_fields: null
       note: null
       singleton: false
-      sort: 4
+      sort: 5
       sort_field: null
       translations:
         - language: ro-RO
@@ -335,7 +363,7 @@ collections:
       item_duplication_fields: null
       note: null
       singleton: false
-      sort: 11
+      sort: 13
       sort_field: null
       translations: null
       unarchive_value: null
@@ -359,7 +387,7 @@ collections:
       item_duplication_fields: null
       note: null
       singleton: false
-      sort: 12
+      sort: 14
       sort_field: null
       translations: null
       unarchive_value: null
@@ -383,13 +411,92 @@ collections:
       item_duplication_fields: null
       note: null
       singleton: false
-      sort: 13
+      sort: 15
       sort_field: null
       translations: null
       unarchive_value: null
     schema:
       comment: null
       name: homepage_services
+      schema: public
+  - collection: languages
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: languages
+      color: null
+      display_template: null
+      group: null
+      hidden: false
+      icon: null
+      item_duplication_fields: null
+      note: null
+      singleton: false
+      sort: 20
+      sort_field: null
+      translations: null
+      unarchive_value: null
+    schema:
+      comment: null
+      name: languages
+      schema: public
+  - collection: pages
+    meta:
+      accountability: all
+      archive_app_filter: false
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: pages
+      color: '#FFA439'
+      display_template: null
+      group: null
+      hidden: false
+      icon: find_in_page
+      item_duplication_fields: null
+      note: >-
+        Paginile pot fi folosite pentru conținut static, care nu este afectat de
+        perioada de timp sau alte evenimente externe. Eg. pagină cu oferte de
+        companii, regulamente, etc.
+      singleton: false
+      sort: 4
+      sort_field: null
+      translations:
+        - language: ro-RO
+          translation: Pagini
+          singular: Pagină
+          plural: Pagini
+      unarchive_value: null
+    schema:
+      comment: null
+      name: pages
+      schema: public
+  - collection: pages_translations
+    meta:
+      accountability: all
+      archive_app_filter: true
+      archive_field: null
+      archive_value: null
+      collapse: open
+      collection: pages_translations
+      color: null
+      display_template: null
+      group: null
+      hidden: true
+      icon: import_export
+      item_duplication_fields: null
+      note: null
+      singleton: false
+      sort: 21
+      sort_field: null
+      translations: null
+      unarchive_value: null
+    schema:
+      comment: null
+      name: pages_translations
       schema: public
   - collection: partners
     meta:
@@ -407,7 +514,7 @@ collections:
       item_duplication_fields: null
       note: null
       singleton: false
-      sort: 7
+      sort: 3
       sort_field: null
       translations:
         - language: ro-RO
@@ -435,7 +542,7 @@ collections:
       item_duplication_fields: null
       note: null
       singleton: false
-      sort: 10
+      sort: 11
       sort_field: null
       translations:
         - language: ro-RO
@@ -463,7 +570,7 @@ collections:
       item_duplication_fields: null
       note: null
       singleton: false
-      sort: 3
+      sort: 8
       sort_field: null
       translations:
         - language: ro-RO
@@ -514,7 +621,7 @@ collections:
       item_duplication_fields: null
       note: null
       singleton: false
-      sort: 16
+      sort: 18
       sort_field: null
       translations: null
       unarchive_value: null
@@ -538,7 +645,7 @@ collections:
       item_duplication_fields: null
       note: null
       singleton: false
-      sort: 6
+      sort: 7
       sort_field: null
       translations:
         - language: ro-RO
@@ -566,7 +673,7 @@ collections:
       item_duplication_fields: null
       note: null
       singleton: false
-      sort: 9
+      sort: 10
       sort_field: null
       translations:
         - language: ro-RO
@@ -643,7 +750,7 @@ fields:
       interface: input-rich-text-html
       note: null
       options:
-        folder: 151f64cb-99a3-4656-8dcd-f19f07f0c932
+        folder: 1c7ff8d0-2f3f-4369-ace9-0d83abfb1843
         toolbar:
           - blockquote
           - bold
@@ -750,7 +857,7 @@ fields:
       interface: files
       note: null
       options:
-        folder: d5122679-bf5f-40e3-b38b-49e1dadf9b4b
+        folder: 1c7ff8d0-2f3f-4369-ace9-0d83abfb1843
         template: '{{image}}'
       readonly: false
       required: false
@@ -1031,6 +1138,47 @@ fields:
       is_unique: true
       max_length: null
       name: id
+      numeric_precision: 32
+      numeric_scale: 0
+      schema: public
+      table: attachments
+    type: integer
+  - collection: attachments
+    field: page
+    meta:
+      collection: attachments
+      conditions: null
+      display: null
+      display_options: null
+      field: page
+      group: null
+      hidden: true
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      comment: null
+      data_type: integer
+      default_value: null
+      foreign_key_column: id
+      foreign_key_schema: public
+      foreign_key_table: pages
+      generation_expression: null
+      has_auto_increment: false
+      is_generated: false
+      is_nullable: true
+      is_primary_key: false
+      is_unique: false
+      max_length: null
+      name: page
       numeric_precision: 32
       numeric_scale: 0
       schema: public
@@ -1359,7 +1507,8 @@ fields:
       hidden: false
       interface: input-rich-text-html
       note: null
-      options: null
+      options:
+        folder: 1c7ff8d0-2f3f-4369-ace9-0d83abfb1844
       readonly: false
       required: false
       sort: 3
@@ -1403,7 +1552,7 @@ fields:
       interface: file-image
       note: null
       options:
-        folder: 1166cf43-762d-43ca-b231-c06394aedac4
+        folder: 1c7ff8d0-2f3f-4369-ace9-0d83abfb1844
       readonly: false
       required: false
       sort: 4
@@ -1867,6 +2016,335 @@ fields:
       schema: public
       table: audiences_services
     type: integer
+  - collection: careers
+    field: content
+    meta:
+      collection: careers
+      conditions: null
+      display: null
+      display_options: null
+      field: content
+      group: null
+      hidden: false
+      interface: input-rich-text-html
+      note: null
+      options:
+        folder: 1c7ff8d0-2f3f-4369-ace9-0d83abfb1843
+        toolbar:
+          - aligncenter
+          - alignleft
+          - alignnone
+          - alignright
+          - blockquote
+          - bold
+          - bullist
+          - code
+          - customImage
+          - customLink
+          - customMedia
+          - forecolor
+          - fullscreen
+          - h2
+          - h3
+          - h4
+          - hr
+          - italic
+          - numlist
+          - removeformat
+          - subscript
+          - superscript
+          - underline
+          - unlink
+      readonly: false
+      required: true
+      sort: 3
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      comment: null
+      data_type: text
+      default_value: null
+      foreign_key_column: null
+      foreign_key_schema: null
+      foreign_key_table: null
+      generation_expression: null
+      has_auto_increment: false
+      is_generated: false
+      is_nullable: true
+      is_primary_key: false
+      is_unique: false
+      max_length: null
+      name: content
+      numeric_precision: null
+      numeric_scale: null
+      schema: public
+      table: careers
+    type: text
+  - collection: careers
+    field: date_created
+    meta:
+      collection: careers
+      conditions: null
+      display: datetime
+      display_options:
+        relative: true
+      field: date_created
+      group: null
+      hidden: false
+      interface: datetime
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: 6
+      special:
+        - date-created
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      comment: null
+      data_type: timestamp with time zone
+      default_value: null
+      foreign_key_column: null
+      foreign_key_schema: null
+      foreign_key_table: null
+      generation_expression: null
+      has_auto_increment: false
+      is_generated: false
+      is_nullable: true
+      is_primary_key: false
+      is_unique: false
+      max_length: null
+      name: date_created
+      numeric_precision: null
+      numeric_scale: null
+      schema: public
+      table: careers
+    type: timestamp
+  - collection: careers
+    field: date_updated
+    meta:
+      collection: careers
+      conditions: null
+      display: datetime
+      display_options:
+        relative: true
+      field: date_updated
+      group: null
+      hidden: false
+      interface: datetime
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: 7
+      special:
+        - date-updated
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      comment: null
+      data_type: timestamp with time zone
+      default_value: null
+      foreign_key_column: null
+      foreign_key_schema: null
+      foreign_key_table: null
+      generation_expression: null
+      has_auto_increment: false
+      is_generated: false
+      is_nullable: true
+      is_primary_key: false
+      is_unique: false
+      max_length: null
+      name: date_updated
+      numeric_precision: null
+      numeric_scale: null
+      schema: public
+      table: careers
+    type: timestamp
+  - collection: careers
+    field: id
+    meta:
+      collection: careers
+      conditions: null
+      display: null
+      display_options: null
+      field: id
+      group: null
+      hidden: true
+      interface: input
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: 1
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      comment: null
+      data_type: integer
+      default_value: nextval('careers_id_seq'::regclass)
+      foreign_key_column: null
+      foreign_key_schema: null
+      foreign_key_table: null
+      generation_expression: null
+      has_auto_increment: true
+      is_generated: false
+      is_nullable: false
+      is_primary_key: true
+      is_unique: true
+      max_length: null
+      name: id
+      numeric_precision: 32
+      numeric_scale: 0
+      schema: public
+      table: careers
+    type: integer
+  - collection: careers
+    field: open
+    meta:
+      collection: careers
+      conditions: null
+      display: boolean
+      display_options:
+        labelOff: Închisă
+        labelOn: Deschisă
+      field: open
+      group: null
+      hidden: false
+      interface: boolean
+      note: null
+      options:
+        label: Poziție deschisă
+      readonly: false
+      required: false
+      sort: 4
+      special:
+        - cast-boolean
+      translations:
+        - language: ro-RO
+          translation: Status poziție
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      comment: null
+      data_type: boolean
+      default_value: true
+      foreign_key_column: null
+      foreign_key_schema: null
+      foreign_key_table: null
+      generation_expression: null
+      has_auto_increment: false
+      is_generated: false
+      is_nullable: false
+      is_primary_key: false
+      is_unique: false
+      max_length: null
+      name: open
+      numeric_precision: null
+      numeric_scale: null
+      schema: public
+      table: careers
+    type: boolean
+  - collection: careers
+    field: partner
+    meta:
+      collection: careers
+      conditions: null
+      display: related-values
+      display_options: null
+      field: partner
+      group: null
+      hidden: false
+      interface: select-dropdown-m2o
+      note: null
+      options:
+        template: '{{name}}'
+      readonly: false
+      required: false
+      sort: 5
+      special:
+        - m2o
+      translations:
+        - language: ro-RO
+          translation: Companie
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      comment: null
+      data_type: integer
+      default_value: null
+      foreign_key_column: id
+      foreign_key_schema: public
+      foreign_key_table: partners
+      generation_expression: null
+      has_auto_increment: false
+      is_generated: false
+      is_nullable: true
+      is_primary_key: false
+      is_unique: false
+      max_length: null
+      name: partner
+      numeric_precision: 32
+      numeric_scale: 0
+      schema: public
+      table: careers
+    type: integer
+  - collection: careers
+    field: position
+    meta:
+      collection: careers
+      conditions: null
+      display: null
+      display_options: null
+      field: position
+      group: null
+      hidden: false
+      interface: input
+      note: null
+      options: null
+      readonly: false
+      required: true
+      sort: 2
+      special: null
+      translations:
+        - language: ro-RO
+          translation: Poziție
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      comment: null
+      data_type: character varying
+      default_value: null
+      foreign_key_column: null
+      foreign_key_schema: null
+      foreign_key_table: null
+      generation_expression: null
+      has_auto_increment: false
+      is_generated: false
+      is_nullable: false
+      is_primary_key: false
+      is_unique: false
+      max_length: 255
+      name: position
+      numeric_precision: null
+      numeric_scale: null
+      schema: public
+      table: careers
+    type: string
   - collection: categories
     field: color
     meta:
@@ -2475,7 +2953,7 @@ fields:
       interface: file-image
       note: null
       options:
-        folder: ee9d908b-9390-4923-8e01-48a397ceb418
+        folder: 1c7ff8d0-2f3f-4369-ace9-0d83abfb1849
       readonly: false
       required: true
       sort: 5
@@ -2700,6 +3178,7 @@ fields:
       interface: input-rich-text-html
       note: Descriere a evenimentului
       options:
+        folder: 1c7ff8d0-2f3f-4369-ace9-0d83abfb1849
         toolbar:
           - blockquote
           - bold
@@ -3488,7 +3967,7 @@ fields:
       interface: file-image
       note: null
       options:
-        folder: d5122679-bf5f-40e3-b38b-49e1dadf9b4b
+        folder: 1c7ff8d0-2f3f-4369-ace9-0d83abfb1843
       readonly: false
       required: true
       sort: 4
@@ -3702,7 +4181,7 @@ fields:
       interface: file-image
       note: null
       options:
-        folder: d5122679-bf5f-40e3-b38b-49e1dadf9b4b
+        folder: 1c7ff8d0-2f3f-4369-ace9-0d83abfb1843
       readonly: false
       required: true
       sort: 3
@@ -4289,7 +4768,7 @@ fields:
       interface: file-image
       note: null
       options:
-        folder: d5122679-bf5f-40e3-b38b-49e1dadf9b4b
+        folder: 1c7ff8d0-2f3f-4369-ace9-0d83abfb1843
       readonly: false
       required: true
       sort: 5
@@ -4982,6 +5461,626 @@ fields:
       schema: public
       table: homepage_services
     type: integer
+  - collection: languages
+    field: code
+    meta:
+      collection: languages
+      conditions: null
+      display: null
+      display_options: null
+      field: code
+      group: null
+      hidden: false
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      comment: null
+      data_type: character varying
+      default_value: null
+      foreign_key_column: null
+      foreign_key_schema: null
+      foreign_key_table: null
+      generation_expression: null
+      has_auto_increment: false
+      is_generated: false
+      is_nullable: false
+      is_primary_key: true
+      is_unique: true
+      max_length: 255
+      name: code
+      numeric_precision: null
+      numeric_scale: null
+      schema: public
+      table: languages
+    type: string
+  - collection: languages
+    field: direction
+    meta:
+      collection: languages
+      conditions: null
+      display: labels
+      display_options:
+        choices:
+          - text: $t:left_to_right
+            value: ltr
+          - text: $t:right_to_left
+            value: rtl
+        format: false
+      field: direction
+      group: null
+      hidden: false
+      interface: select-dropdown
+      note: null
+      options:
+        choices:
+          - text: $t:left_to_right
+            value: ltr
+          - text: $t:right_to_left
+            value: rtl
+      readonly: false
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      comment: null
+      data_type: character varying
+      default_value: ltr
+      foreign_key_column: null
+      foreign_key_schema: null
+      foreign_key_table: null
+      generation_expression: null
+      has_auto_increment: false
+      is_generated: false
+      is_nullable: true
+      is_primary_key: false
+      is_unique: false
+      max_length: 255
+      name: direction
+      numeric_precision: null
+      numeric_scale: null
+      schema: public
+      table: languages
+    type: string
+  - collection: languages
+    field: name
+    meta:
+      collection: languages
+      conditions: null
+      display: null
+      display_options: null
+      field: name
+      group: null
+      hidden: false
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      comment: null
+      data_type: character varying
+      default_value: null
+      foreign_key_column: null
+      foreign_key_schema: null
+      foreign_key_table: null
+      generation_expression: null
+      has_auto_increment: false
+      is_generated: false
+      is_nullable: true
+      is_primary_key: false
+      is_unique: false
+      max_length: 255
+      name: name
+      numeric_precision: null
+      numeric_scale: null
+      schema: public
+      table: languages
+    type: string
+  - collection: pages
+    field: attachments
+    meta:
+      collection: pages
+      conditions: null
+      display: null
+      display_options: null
+      field: attachments
+      group: null
+      hidden: false
+      interface: files
+      note: null
+      options:
+        folder: 1c7ff8d0-2f3f-4369-ace9-0d83abfb1848
+        template: "{{file.title}} -\_{{file.filename_download}}"
+      readonly: false
+      required: false
+      sort: 6
+      special:
+        - files
+      translations:
+        - language: ro-RO
+          translation: Atașamente
+      validation: null
+      validation_message: null
+      width: full
+    schema: null
+    type: alias
+  - collection: pages
+    field: content
+    meta:
+      collection: pages
+      conditions: null
+      display: null
+      display_options: null
+      field: content
+      group: null
+      hidden: false
+      interface: input-rich-text-html
+      note: null
+      options:
+        folder: 1c7ff8d0-2f3f-4369-ace9-0d83abfb1846
+        toolbar:
+          - aligncenter
+          - alignleft
+          - alignnone
+          - alignright
+          - backcolor
+          - blockquote
+          - bold
+          - bullist
+          - code
+          - customImage
+          - customLink
+          - customMedia
+          - forecolor
+          - fullscreen
+          - h2
+          - h3
+          - h4
+          - hr
+          - italic
+          - numlist
+          - removeformat
+          - strikethrough
+          - subscript
+          - superscript
+          - table
+          - underline
+          - unlink
+      readonly: false
+      required: true
+      sort: 5
+      special: null
+      translations:
+        - language: ro-RO
+          translation: Conținut
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      comment: null
+      data_type: text
+      default_value: null
+      foreign_key_column: null
+      foreign_key_schema: null
+      foreign_key_table: null
+      generation_expression: null
+      has_auto_increment: false
+      is_generated: false
+      is_nullable: true
+      is_primary_key: false
+      is_unique: false
+      max_length: null
+      name: content
+      numeric_precision: null
+      numeric_scale: null
+      schema: public
+      table: pages
+    type: text
+  - collection: pages
+    field: cover
+    meta:
+      collection: pages
+      conditions: null
+      display: image
+      display_options: null
+      field: cover
+      group: null
+      hidden: false
+      interface: file-image
+      note: null
+      options:
+        folder: 1c7ff8d0-2f3f-4369-ace9-0d83abfb1846
+      readonly: false
+      required: false
+      sort: 4
+      special:
+        - file
+      translations:
+        - language: ro-RO
+          translation: Imagine de copertă
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      comment: null
+      data_type: uuid
+      default_value: null
+      foreign_key_column: id
+      foreign_key_schema: public
+      foreign_key_table: directus_files
+      generation_expression: null
+      has_auto_increment: false
+      is_generated: false
+      is_nullable: true
+      is_primary_key: false
+      is_unique: false
+      max_length: null
+      name: cover
+      numeric_precision: null
+      numeric_scale: null
+      schema: public
+      table: pages
+    type: uuid
+  - collection: pages
+    field: date_created
+    meta:
+      collection: pages
+      conditions: null
+      display: datetime
+      display_options:
+        relative: true
+      field: date_created
+      group: null
+      hidden: true
+      interface: datetime
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: 7
+      special:
+        - date-created
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      comment: null
+      data_type: timestamp with time zone
+      default_value: null
+      foreign_key_column: null
+      foreign_key_schema: null
+      foreign_key_table: null
+      generation_expression: null
+      has_auto_increment: false
+      is_generated: false
+      is_nullable: true
+      is_primary_key: false
+      is_unique: false
+      max_length: null
+      name: date_created
+      numeric_precision: null
+      numeric_scale: null
+      schema: public
+      table: pages
+    type: timestamp
+  - collection: pages
+    field: date_updated
+    meta:
+      collection: pages
+      conditions: null
+      display: datetime
+      display_options:
+        relative: true
+      field: date_updated
+      group: null
+      hidden: true
+      interface: datetime
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: 8
+      special:
+        - date-updated
+      translations: null
+      validation: null
+      validation_message: null
+      width: half
+    schema:
+      comment: null
+      data_type: timestamp with time zone
+      default_value: null
+      foreign_key_column: null
+      foreign_key_schema: null
+      foreign_key_table: null
+      generation_expression: null
+      has_auto_increment: false
+      is_generated: false
+      is_nullable: true
+      is_primary_key: false
+      is_unique: false
+      max_length: null
+      name: date_updated
+      numeric_precision: null
+      numeric_scale: null
+      schema: public
+      table: pages
+    type: timestamp
+  - collection: pages
+    field: excerpt
+    meta:
+      collection: pages
+      conditions: null
+      display: formatted-value
+      display_options:
+        format: true
+      field: excerpt
+      group: null
+      hidden: false
+      interface: input-multiline
+      note: Descriere pentru afișat pe social media.
+      options:
+        softLength: 255
+        trim: true
+      readonly: false
+      required: true
+      sort: 3
+      special: null
+      translations:
+        - language: ro-RO
+          translation: Descriere scurtă
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      comment: null
+      data_type: text
+      default_value: null
+      foreign_key_column: null
+      foreign_key_schema: null
+      foreign_key_table: null
+      generation_expression: null
+      has_auto_increment: false
+      is_generated: false
+      is_nullable: true
+      is_primary_key: false
+      is_unique: false
+      max_length: null
+      name: excerpt
+      numeric_precision: null
+      numeric_scale: null
+      schema: public
+      table: pages
+    type: text
+  - collection: pages
+    field: id
+    meta:
+      collection: pages
+      conditions: null
+      display: null
+      display_options: null
+      field: id
+      group: null
+      hidden: true
+      interface: input
+      note: null
+      options: null
+      readonly: true
+      required: false
+      sort: 1
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      comment: null
+      data_type: integer
+      default_value: nextval('pages_id_seq'::regclass)
+      foreign_key_column: null
+      foreign_key_schema: null
+      foreign_key_table: null
+      generation_expression: null
+      has_auto_increment: true
+      is_generated: false
+      is_nullable: false
+      is_primary_key: true
+      is_unique: true
+      max_length: null
+      name: id
+      numeric_precision: 32
+      numeric_scale: 0
+      schema: public
+      table: pages
+    type: integer
+  - collection: pages
+    field: title
+    meta:
+      collection: pages
+      conditions: null
+      display: null
+      display_options: null
+      field: title
+      group: null
+      hidden: false
+      interface: input
+      note: null
+      options:
+        iconRight: text_fields
+        trim: true
+      readonly: false
+      required: true
+      sort: 2
+      special: null
+      translations:
+        - language: ro-RO
+          translation: Titlu
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      comment: null
+      data_type: character varying
+      default_value: null
+      foreign_key_column: null
+      foreign_key_schema: null
+      foreign_key_table: null
+      generation_expression: null
+      has_auto_increment: false
+      is_generated: false
+      is_nullable: false
+      is_primary_key: false
+      is_unique: false
+      max_length: 1024
+      name: title
+      numeric_precision: null
+      numeric_scale: null
+      schema: public
+      table: pages
+    type: string
+  - collection: pages_translations
+    field: id
+    meta:
+      collection: pages_translations
+      conditions: null
+      display: null
+      display_options: null
+      field: id
+      group: null
+      hidden: true
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      comment: null
+      data_type: integer
+      default_value: nextval('pages_translations_id_seq'::regclass)
+      foreign_key_column: null
+      foreign_key_schema: null
+      foreign_key_table: null
+      generation_expression: null
+      has_auto_increment: true
+      is_generated: false
+      is_nullable: false
+      is_primary_key: true
+      is_unique: true
+      max_length: null
+      name: id
+      numeric_precision: 32
+      numeric_scale: 0
+      schema: public
+      table: pages_translations
+    type: integer
+  - collection: pages_translations
+    field: languages_id
+    meta:
+      collection: pages_translations
+      conditions: null
+      display: null
+      display_options: null
+      field: languages_id
+      group: null
+      hidden: true
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      comment: null
+      data_type: character varying
+      default_value: null
+      foreign_key_column: null
+      foreign_key_schema: null
+      foreign_key_table: null
+      generation_expression: null
+      has_auto_increment: false
+      is_generated: false
+      is_nullable: true
+      is_primary_key: false
+      is_unique: false
+      max_length: 255
+      name: languages_id
+      numeric_precision: null
+      numeric_scale: null
+      schema: public
+      table: pages_translations
+    type: string
+  - collection: pages_translations
+    field: pages_id
+    meta:
+      collection: pages_translations
+      conditions: null
+      display: null
+      display_options: null
+      field: pages_id
+      group: null
+      hidden: true
+      interface: null
+      note: null
+      options: null
+      readonly: false
+      required: false
+      sort: null
+      special: null
+      translations: null
+      validation: null
+      validation_message: null
+      width: full
+    schema:
+      comment: null
+      data_type: integer
+      default_value: null
+      foreign_key_column: null
+      foreign_key_schema: null
+      foreign_key_table: null
+      generation_expression: null
+      has_auto_increment: false
+      is_generated: false
+      is_nullable: true
+      is_primary_key: false
+      is_unique: false
+      max_length: null
+      name: pages_id
+      numeric_precision: 32
+      numeric_scale: 0
+      schema: public
+      table: pages_translations
+    type: integer
   - collection: partners
     field: id
     meta:
@@ -5036,7 +6135,7 @@ fields:
       interface: file-image
       note: null
       options:
-        folder: 522ccc79-0f09-4e1c-903f-ea76ab773b9a
+        folder: 1c7ff8d0-2f3f-4369-ace9-0d83abfb1847
       readonly: false
       required: true
       sort: 4
@@ -5254,7 +6353,7 @@ fields:
       interface: file-image
       note: null
       options:
-        folder: 1c7ff8d0-2f3f-4369-ace9-0d83abfb1843
+        folder: 1c7ff8d0-2f3f-4369-ace9-0d83abfb1845
       readonly: false
       required: false
       sort: 5
@@ -5636,7 +6735,7 @@ fields:
       interface: files
       note: null
       options:
-        folder: f7389abf-032b-4151-b43d-e5595a256f71
+        folder: 1c7ff8d0-2f3f-4369-ace9-0d83abfb1848
         template: "{{file.title}} -\_{{file.filename_download}}"
       readonly: false
       required: false
@@ -5726,7 +6825,7 @@ fields:
       note: null
       options:
         customFormats: null
-        folder: null
+        folder: 1c7ff8d0-2f3f-4369-ace9-0d83abfb1846
         toolbar:
           - backcolor
           - blockquote
@@ -5794,7 +6893,7 @@ fields:
       interface: file-image
       note: Imagine de copertă ce va apărea pe website dar și în Social Media.
       options:
-        folder: d703312f-7421-4ac6-87c1-a4f07ceed05b
+        folder: 1c7ff8d0-2f3f-4369-ace9-0d83abfb1846
       readonly: false
       required: true
       sort: 3
@@ -6356,7 +7455,7 @@ fields:
       interface: files
       note: null
       options:
-        folder: f7389abf-032b-4151-b43d-e5595a256f71
+        folder: 1c7ff8d0-2f3f-4369-ace9-0d83abfb1848
         template: null
       readonly: false
       required: false
@@ -6531,6 +7630,7 @@ fields:
       interface: input-rich-text-html
       note: null
       options:
+        folder: 1c7ff8d0-2f3f-4369-ace9-0d83abfb1840
         toolbar:
           - blockquote
           - bold
@@ -6776,7 +7876,7 @@ fields:
       interface: file-image
       note: null
       options:
-        folder: fc93de5e-08f6-49aa-a2d9-d2d369777457
+        folder: 1c7ff8d0-2f3f-4369-ace9-0d83abfb1840
       readonly: false
       required: false
       sort: 4
@@ -7677,7 +8777,7 @@ relations:
   - collection: attachments
     field: file
     meta:
-      junction_field: service
+      junction_field: page
       many_collection: attachments
       many_field: file
       one_allowed_collections: null
@@ -7693,6 +8793,28 @@ relations:
       foreign_key_column: id
       foreign_key_schema: public
       foreign_key_table: directus_files
+      on_delete: SET NULL
+      on_update: NO ACTION
+      table: attachments
+  - collection: attachments
+    field: page
+    meta:
+      junction_field: file
+      many_collection: attachments
+      many_field: page
+      one_allowed_collections: null
+      one_collection: pages
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: attachments
+      sort_field: null
+    related_collection: pages
+    schema:
+      column: page
+      constraint_name: attachments_page_foreign
+      foreign_key_column: id
+      foreign_key_schema: public
+      foreign_key_table: pages
       on_delete: SET NULL
       on_update: NO ACTION
       table: attachments
@@ -7894,6 +9016,28 @@ relations:
       on_delete: SET NULL
       on_update: NO ACTION
       table: audiences_services
+  - collection: careers
+    field: partner
+    meta:
+      junction_field: null
+      many_collection: careers
+      many_field: partner
+      one_allowed_collections: null
+      one_collection: partners
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    related_collection: partners
+    schema:
+      column: partner
+      constraint_name: careers_partner_foreign
+      foreign_key_column: id
+      foreign_key_schema: public
+      foreign_key_table: partners
+      on_delete: SET NULL
+      on_update: NO ACTION
+      table: careers
   - collection: events
     field: cover
     meta:
@@ -8107,6 +9251,28 @@ relations:
       on_delete: SET NULL
       on_update: NO ACTION
       table: homepage_services
+  - collection: pages
+    field: cover
+    meta:
+      junction_field: null
+      many_collection: pages
+      many_field: cover
+      one_allowed_collections: null
+      one_collection: directus_files
+      one_collection_field: null
+      one_deselect_action: nullify
+      one_field: null
+      sort_field: null
+    related_collection: directus_files
+    schema:
+      column: cover
+      constraint_name: pages_cover_foreign
+      foreign_key_column: id
+      foreign_key_schema: public
+      foreign_key_table: directus_files
+      on_delete: SET NULL
+      on_update: NO ACTION
+      table: pages
   - collection: partners
     field: logo
     meta:

@@ -5,10 +5,8 @@
   "main": "index.js",
   "scripts": {
     "directus": "directus",
-    "dev": "directus",
-    "schema:apply": "LOG_STYLE=raw pnpm directus schema apply snapshot.yaml --yes",
-    "schema:create": "CONFIG_PATH=./config.js LOG_STYLE=raw pnpm directus schema snapshot snapshot.yaml",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "schema:apply:1": "directus schema apply snapshot-1.yaml --yes",
+    "schema:apply:2": "directus schema apply snapshot-2.yaml --yes"
   },
   "keywords": [],
   "author": "",

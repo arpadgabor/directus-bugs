@@ -4,5 +4,6 @@ export LOG_STYLE=raw
 export CACHE_SCHEMA=false
 
 npm run directus bootstrap
-npm run schema:apply
+npm run schema:apply:1
+npm run schema:apply:2
 npm run directus start
