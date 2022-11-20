@@ -4,5 +4,5 @@ export LOG_STYLE=raw
 export CACHE_SCHEMA=false
 
 npm run directus bootstrap
-npm run directus schema apply snapshot.yaml --yes
+npm run schema:apply
 npm run directus start

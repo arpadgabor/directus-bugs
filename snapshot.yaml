@@ -8320,7 +8320,7 @@ relations:
     related_collection: about
     schema:
       column: about
-      constraint_name: about_foreign
+      constraint_name: staff_about_foreign
       foreign_key_column: id
       foreign_key_schema: public
       foreign_key_table: about

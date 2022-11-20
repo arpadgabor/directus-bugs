@@ -7,6 +7,7 @@
     "directus": "directus",
     "dev": "directus",
     "schema:apply": "LOG_STYLE=raw pnpm directus schema apply snapshot.yaml --yes",
+    "schema:create": "CONFIG_PATH=./config.js LOG_STYLE=raw pnpm directus schema snapshot snapshot.yaml",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
