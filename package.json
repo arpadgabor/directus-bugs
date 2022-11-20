@@ -1,0 +1,19 @@
+{
+  "name": "directus-dblock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "directus": "directus",
+    "dev": "directus",
+    "schema:apply": "LOG_STYLE=raw pnpm directus schema apply snapshot.yaml --yes",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "directus": "^9.21.0",
+    "pg": "^8.8.0"
+  }
+}
